@@ -1,0 +1,96 @@
+@media only screen and (min-width:1200px){
+}
+
+@media only screen and (min-width:992px) and (max-width:1125px){
+	.imm_receive_list .input-group input {
+		width: 115px !important;
+	}
+	.imm_receive_list.form-inline .input-group input {
+		width: 85px !important;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){	
+	
+}
+@media only screen and (max-width:385px){
+	.card .imm_receive_list {		
+		padding-left: 20px;
+	}	
+	.card.card-warning .imm_receive_list .input-group {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width:920px){
+	.imm_receive_list {
+		position: relative !important;		
+	}
+}
+@media only screen and (max-width: 920px){
+	.imm_receive_list {	
+		margin: 20px auto 0 auto !important;
+	}	
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+	.card-body.imm_receive_table .table-responsive .row .col-sm-12 {
+		width: 50% !important;
+		max-width: 50%;
+		flex: 0 0 50%;
+	}
+	.imm_options input {
+		margin: 4px 0 0 0;
+	}
+	.imm_invoice_list .card-body #DataTables_Table_0_wrapper .row:first-child .col-sm-12 {
+		width: 50% !important;
+		flex: 0 0 50% !important;
+	}
+	.imm_invoice_list .card-body #DataTables_Table_0_wrapper .row:first-child .col-sm-12 > div {
+		text-align: left !important;
+	}
+}
+@media only screen and (max-width:575px){
+	.imm_options input {
+		margin: 4px 0 0 0;
+	}
+	.login-page .card-body {
+		padding: 1.25rem 0;
+	}
+	.main .container-fluid {
+		padding: 20px 15px !important;
+	}
+	.dataTables_wrapper .dataTables_paginate .paginate_button {
+        min-width: auto !important;
+	}
+	.login-page .card-group img {
+		width: 100%;
+		max-width: 350px;
+	}
+	.login-page .card-body form .row .text-right {
+		padding-left: 0 !important;
+		margin-left: -5%;
+	}	
+	.imm_receive_list button {
+		margin: 6px 7px !important;
+		padding: 8px 10px;
+	}
+	.imm_receive_list .input-group input {
+		margin: 0 6px !important;
+		padding: 10px 5px !important;
+		max-width: 120px !important;
+	}
+	.imm_receive_list .input-group {
+		width: auto !important;
+	}
+}
+.imm_receive_list .input-group input {
+    margin: 0 10px;   
+}
+.imm_receive_list.form-inline .input-group input {
+    width: 150px;
+}
+.imm_receive_table td a {
+    margin: 0px 0 2px 0;
+}
+div#ui-datepicker-div {
+    z-index: 9 !important;
+}

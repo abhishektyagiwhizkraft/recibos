@@ -1,0 +1,16 @@
+You need to update quantity for every product
+
+1). Add Product with Available quantity.
+    URL : http://receipts.iamwhiz.com/admin/products
+	
+2). For create new order, select product and then enter quantity. If Product not avialable it gives error message   with available quantity.
+    URL:http://receipts.iamwhiz.com/admin/orders/create
+    
+3). After Create Order, create invoice with order id
+    URL: http://receipts.iamwhiz.com/admin/invoices/create 
+	 
+4). For invoice products list goto invoices history.
+    URL : http://receipts.iamwhiz.com/admin/invoice/799/history
+	
+5). For client inventory history goto client profile 
+    URL: http://recibos.test/admin/clients/profile/672
